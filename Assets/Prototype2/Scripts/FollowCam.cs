@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class FollowCam : MonoBehaviour {
 
+	[Header("These all relate to our player properties")]
     static public FollowCam S; // a FollowCam Singleton
     public float easing = 0.05f;
     public Vector2 minXY;
     // fields set in the Unity Inspector pane
     public bool _____________________________;
+	[Header("This is all for movement")]
     // fields set dynamically
     public GameObject poi; // The point of interest
     public float camZ; // The desired Z pos of the camera
